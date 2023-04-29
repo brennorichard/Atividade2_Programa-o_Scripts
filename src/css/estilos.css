@@ -1,0 +1,104 @@
+#homebody{
+    background-color: white;
+    
+}
+body {
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#valormega{color:#209869; text-decoration: none;}
+#valorloto{color: #930089; text-decoration: none;}
+#valorquina{color: #260085; text-decoration: none;}
+
+#txtganhadores{
+   color: #0066b3;
+   margin-bottom: 1000px;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+#datconc{color: #4c556c}
+#datconcquina{color: #260085}
+
+#dezenasmega{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background-color: #209869;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+    line-height: 42px;
+}
+#dezenasquina{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background-color: #260085;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+    line-height: 42px;
+}
+
+#dezenasloto{
+    color: #930089;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 40px;
+}
+
+#divboxesq{
+    flex-direction: column;
+    float: left;
+    margin-top: 20px;    
+}
+#divboxdir{
+    flex-direction: column;
+    float: right;
+    margin-right: 40%;
+    margin-top: 20px;
+}
+
+#imagelot{ display: flex;
+    align-items:center ;
+}
+
+#space{
+    height: 15px;
+}
+
+#space_2{
+    height: 5px;
+}
+
+#titulomega{
+    font-size: 24px;
+    color:#209869;
+    font-weight: bold;
+}
+
+#tituloloto{
+    font-size: 24px;
+    color: #930089;
+    font-weight: bold;
+}
+
+#tituloquina{
+    font-size: 24px;
+    color: #260085;
+    font-weight: bold;
+}
+
+#td-valor-loto{
+    color: #930089;
+}
