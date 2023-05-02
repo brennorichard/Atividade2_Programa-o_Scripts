@@ -13,23 +13,23 @@ function Megasena(){
             <div id="divboxesq">
                 <table>
                 <div id="imagelot">
-                          <img src="/assets/trevo-megasena.png"  style={{ marginRight: '10px' }}  /> 
-                          <td id="titulomega">Mega-Sena</td>
+                <img src="/assets/trevo-megasena.png"  style={{ marginRight: '10px' }}  /> 
+                          <td id="titulomega">MEGA-SENA</td>
                         </div>
                         <div id="space"></div>
                     <tr>
-                        <td>Estimativa do prêmio do próximo <br/> concurso. Sorteio em {megasena.dataProximoConcurso}:</td>
+                        <td id="datconc">Estimativa do prêmio do próximo <br/> concurso. Sorteio em {megasena.dataProximoConcurso}:</td>
                     </tr>
                     <div id="space"></div>
                     <tr>
-                        <td id="valormega">R$ {megasena.valorEstimadoProximoConcurso.toLocaleString('pt-BR', { style: 'decimal', maximumFractionDigits: 0 })}</td>
+                        <td id="valormega">R$ {megasena.valorEstimadoProximoConcurso.toLocaleString('pt-BR', { style: 'decimal', minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
                     </tr>
                 </table>
             </div>
 
             <div id="divboxdir">
                 <tr>
-                    <td>{megasena.dezenas.map( dezena => ( <td id="dezenasmega" > {dezena} </td>))}</td>
+                    <td id="bolds">{megasena.dezenas.map( dezena => ( <td id="dezenasmega" > {dezena} </td>))}</td>
                 </tr>
                 <div id="space"></div>
                 <tr>
@@ -37,7 +37,7 @@ function Megasena(){
                 </tr>
                 <div id="space"></div>
                 <tr>
-                    <td>Concurso {megasena.numeroDoConcurso} - {megasena.dataPorExtenso}</td>
+                    <td id="datc">Concurso {megasena.numeroDoConcurso} - {megasena.dataPorExtenso}</td>
                 </tr>
            </div>
         </div>
